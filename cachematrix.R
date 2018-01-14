@@ -6,7 +6,7 @@
 
 makeCacheMatrix <- function(x = matrix()) {
         
-        # initially nothing is cached so set it to NULL
+        # set initial cache to NULL
         cache <- NULL
         
         # Step 1. Storing
