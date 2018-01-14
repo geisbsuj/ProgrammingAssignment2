@@ -1,4 +1,4 @@
-#Programming Assignment 2: Lexical Scoping
+# Programming Assignment 2: Lexical Scoping
 
 The file ProgrammingAssessment2.R contains the code to generate the functions asked for in this weeks Assignment. 
 
