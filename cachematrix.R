@@ -3,6 +3,7 @@
 
 ## The puspose of makeCacheMatrix is to store a martix and a cached value of the inverse of the matrix
 ## The steps will be the following: 1. set the matrix, 2. get the matrix, 3. set the cache, 4. get the cache.
+
 makeCacheMatrix <- function(x = matrix()) {
         
         # initially nothing is cached so set it to NULL
@@ -31,7 +32,9 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 # The following function calculates the inverse of a matrix created with makeCacheMatrix
-# If the inverse has already been calculated (and the matrix has not changed), then the cachesolve should retrieve the inverse from the cache.
+# If the inverse has already been calculated (and the matrix has not changed), 
+# then the cachesolve should retrieve the inverse from the cache.
+
 cacheSolve <- function(yValue, ...) {
         # get the cached value
         inverse <- yValue$getInverse()
